@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+
+
+body{
+	font-family:Microsoft Yahei,"微软雅黑";
+	margin-top:50px;
+	font-size:13px;
+	background-color:#9EDFE8;
+}
+#footer{
+	color:#435072;
+	margin-top:10px;
+	border:1px dashed #cccccc;
+	padding:10px;
+	text-align:center;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+}
+a, a:link, a:visited, a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+.clear{
+	clear:both;
+}
+
+/*----------------------*/
+/*----------------------*/
+/*----------------------*/
+/*----------------------*/
+/*----------------------*/
+
+
+
+/*rounded---中间的内容框*/
+#rounded a,#rounded a:visited {
+	color:#007bc4;
+	text-decoration:none;
+	outline:none;
+}
+#rounded a:hover{
+	text-decoration:underline;
+}
+#rounded{
+	width:1000px;
+	margin:0 auto;
+	
+}
+.container{
+	background-color:#FFFFFF;
+	padding:10px 20px 20px 20px;
+	height:1260px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border:1px solid #F4F3F3;
+	box-shadow: 6px 8px 7px rgba(0, 0, 0, 0.74);
+    -moz-box-shadow: 6px 8px 7px rgba(0, 0, 0, 0.74);
+    -webkit-box-shadow: 6px 8px 7px rgba(0, 0, 0, 0.74);
+}
+#rounded ul{
+	margin-left:30px;
+}
+#rounded li{
+	list-style:none; 
+	display:block;
+	float:left;
+	width:110px;
+}
+#rounded li a,#rounded li a:visited{
+	padding-top:19px;
+	margin-top:10px;
+	border-top:1px solid #eee;
+	border-left:1px solid #eee;
+	border-right:1px solid #eee;
+	text-align:center;
+	font-size:17px;
+	background-color:#F7F7F7;
+	color:black;
+	height:30px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	display:block;
+	margin-right:10px;
+}
+#rounded li a:hover{
+	border-top:1px solid #FBD850;
+	border-left:1px solid #FBD850;
+	border-right:1px solid #FBD850;
+	background-color:#FDF5CE;
+	text-decoration:none;
+}
+#tabdiv{
+	background-color:#F6A828;
+	height:60px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+#pageContent{
+	border:1px dashed #cccccc;
+	border-top:0;
+	padding:10px;		
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+#loadingdiv{
+	text-align:center;
+	padding-bottom:10px;
+}
+.demo{
+	color:white;
+}
+/*----------------------*/
+
+
+
+
+/* searchbox */
+.searchbox{
+	background:url("../images/searchbox3.png") no-repeat;
+	width:355px;
+	padding-right:1px;
+	height:30px;
+	margin:0;
+}
+#searchformx
+{
+	height:30px;
+	margin-left:200px;
+	margin-top:15px;
+	width:335px;
+}
+.searchbox #inputbox{
+	float:left;
+	margin:4px 10px 0 0px;	/*上右下左*/
+	_margin:6px 6px 0 4px;
+	display:inline;
+	}
+.searchbox #inputbox input{
+	background:none;
+	padding:3px;
+	height:20px;
+	line-height:normal;
+	width:270px;
+	border:none;
+	font-size:12px;
+	font-family:"微软雅黑";
+	color:#999;
+}
+.searchbox #inputbox input.focus_text{color:#333;}
+.searchbox #inputbox input.blur_text{color:#999;}
+.searchbox .sreachbtn{width:64px;_width:60px;height:28px;line-height:28px;overflow:hidden;cursor:pointer;padding:0;border:none;background:none;font-size:14px;color:#990000;font-weight:800;font-family:"微软雅黑";}
+/* options */
+#options{float:left;width:79px;height:28px;color:#333;font-family:"微软雅黑";}
+#options dl{position:relative;z-index:4;width:79px;}
+#options dt{overflow:hidden;width:70px;height:28px;padding:0px 0px 0px 9px;background:none;}
+#options dt b{width:0px;height:0px;overflow:hidden;line-height:0px;font-size:0px;border-width:5px;border-style:solid solid solid solid;border-color:#ccc #fff #fff #fff;}
+#options dt b{position:absolute;right:6px;top:11px;zoom:1;_position:relative;_left:53px;_top:-18px;}
+#options dt input{width:60px;height:26px;line-height:26px;margin:1px 6px 0px 0px;border:0px;font-size:12px;background:none;color:#555;}
+#options dd{display:none;width:77px;line-height:22px;padding:0px 0px 1px 1px;font-size:12px;}
+#options.hover dl{position:relative;cursor:pointer;width:76px;}
+#options.hover dt b{border-color:#fff #fff #ccc #fff;top:6px;_top:-24px;}
+#options.hover dd{display:block;_position:relative;color:#666;margin-left:-1px;border-style:solid;border-color:#DD8C31;border-width:0px 1px 1px 1px;background:#fff;}
+#options dd div{display:block;zoom:1;padding-left:9px;}
+#options div.hover{background:#f5f5f5;color:#333;}
+/*----------------------*/
+
+/*suggest css~*/
+#suggest2{
+	width:284px;
+	position:absolute ;
+	z-index:950;
+	display:none;
+
+}
+#suggest2 ul{
+	list-style:none;
+}
+#suggest2 ul li{
+	width:275px;
+}
+#suggest2 ul li a{
+	background-color:#FFF;
+	white-space:nowrap;
+	text-decoration:none;
+	display:block;
+	font-size:12px;
+}
+#suggest2 li a:hover {
+	background-color:#F90;
+}
+.ac_results {
+	width:284px;
+	border:1px solid #DD8C31;
+	position:absolute ;
+	z-index:950;
+	display:none;
+
+	}
+.ac_results ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.ac_results ul li a{
+	white-space:nowrap;
+	text-decoration:none;
+	display:block;
+	font-size:12px;
+}
+.ac_results ul li{
+	width:275px;
+	margin:0;
+	padding:0;
+	padding-left:5px;
+	border:0px;
+	text-align:left;
+}
+.ac_over,.ac_results li a:hover {
+	background-color:#F90!important;
+}
+.ac_results li a span{float:right;}
+.ac_result_tip{
+	border-bottom:1px dashed #666;
+	padding:3px;
+}
+/*----------------------*/
+
+/*css3  button effect*/
+.button{
+	font:15px Microsoft Yahei,"微软雅黑";
+	/* A semi-transparent text shadow */
+	text-shadow:1px 1px 0 rgba(255,255,255,0.4);
+	/* Overriding the default underline styling of the links */
+	text-decoration:none !important;
+	white-space:nowrap;
+	
+	display:inline-block;
+	vertical-align:baseline;
+	position:relative;
+	cursor:pointer;
+	padding:10px 20px;
+	
+	background-repeat:no-repeat;
+
+	/* The following two rules are fallbacks, in case
+	   the browser does not support multiple backgrounds. */
+
+	background-position:bottom left;
+	background-image:url('button_bg.png');
+	
+	/* Multiple backgrounds version. The background images
+	   are defined individually in color classes */
+	
+	background-position:bottom left, top right, 0 0, 0 0;
+	background-clip:border-box;
+	
+	/* Applying a default border raidus of 8px */
+	
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	
+	/* A 1px highlight inside of the button */
+	
+	-moz-box-shadow:0 0 1px #fff inset;
+	-webkit-box-shadow:0 0 1px #fff inset;
+	box-shadow:0 0 1px #fff inset;
+	
+	/* Animating the background positions with CSS3 */
+	/* Currently works only in Safari/Chrome */
+	
+	-webkit-transition:background-position 1s;
+	-moz-transition:background-position 1s;
+	transition:background-position 1s;
+}
+
+.button:hover{
+	
+	/* The first rule is a fallback, in case the browser
+	   does not support multiple backgrounds
+	*/
+	
+	background-position:top left;
+	background-position:top left, bottom right, 0 0, 0 0;
+}
+
+.button:active{
+	/* Moving the button 1px to the bottom when clicked */
+	bottom:-1px;
+}
+
+/* The three buttons sizes */
+
+.button.big		{ font-size:30px;}
+.button.medium	{ font-size:18px;}
+.button.small	{ font-size:13px;}
+
+/* A more rounded button */
+
+.button.rounded{
+	-moz-border-radius:4em;
+	-webkit-border-radius:4em;
+	border-radius:4em;
+}
+
+
+/* Defining four button colors */
+
+
+/* BlueButton */
+
+.blue.button{
+	color:#0f4b6d !important;
+	
+	border:1px solid #84acc3 !important;
+	
+	/* A fallback background color */
+	background-color: #48b5f2;
+	
+	/* Specifying a version with gradients according to */
+	
+	background-image:	url('button_bg.png'), url('button_bg.png'),
+						-moz-radial-gradient(	center bottom, circle,
+												rgba(89,208,244,1) 0,rgba(89,208,244,0) 100px),
+						-moz-linear-gradient(#4fbbf7, #3faeeb);
+
+	background-image:	url('button_bg.png'), url('button_bg.png'),
+						-webkit-gradient(	radial, 50% 100%, 0, 50% 100%, 100,
+											from(rgba(89,208,244,1)), to(rgba(89,208,244,0))),
+						-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4fbbf7), to(#3faeeb));
+}
+
+.blue.button:hover{
+	background-color:#63c7fe;
+	
+	background-image:	url('button_bg.png'), url('button_bg.png'),
+						-moz-radial-gradient(	center bottom, circle,
+												rgba(109,217,250,1) 0,rgba(109,217,250,0) 100px),
+						-moz-linear-gradient(#63c7fe, #58bef7);
+						
+	background-image:	url('button_bg.png'), url('button_bg.png'),
+						-webkit-gradient(	radial, 50% 100%, 0, 50% 100%, 100,
+											from(rgba(109,217,250,1)), to(rgba(109,217,250,0))),
+						-webkit-gradient(linear, 0% 0%, 0% 100%, from(#63c7fe), to(#58bef7));
+}
+
+/* Green Button */
+
+.green.button{
+	color:#345903 !important;
+	border:1px solid #96a37b !important;	
+	background-color: #79be1e;
+	
+	background-image:url('button_bg.png'), url('button_bg.png'), -moz-radial-gradient(center bottom, circle, rgba(162,211,30,1) 0,rgba(162,211,30,0) 100px),-moz-linear-gradient(#82cc27, #74b317);
+	background-image:url('button_bg.png'), url('button_bg.png'), -webkit-gradient(radial, 50% 100%, 0, 50% 100%, 100, from(rgba(162,211,30,1)), to(rgba(162,211,30,0))),-webkit-gradient(linear, 0% 0%, 0% 100%, from(#82cc27), to(#74b317));
+}
+
+.green.button:hover{
+	background-color:#89d228;
+	
+	background-image:url('button_bg.png'), url('button_bg.png'), -moz-radial-gradient(center bottom, circle, rgba(183,229,45,1) 0,rgba(183,229,45,0) 100px),-moz-linear-gradient(#90de31, #7fc01e);
+	background-image:url('button_bg.png'), url('button_bg.png'), -webkit-gradient(radial, 50% 100%, 0, 50% 100%, 100, from(rgba(183,229,45,1)), to(rgba(183,229,45,0))),-webkit-gradient(linear, 0% 0%, 0% 100%, from(#90de31), to(#7fc01e));
+}
+
+/* Orange Button */
+
+.orange.button{
+	color:#693e0a !important;
+	border:1px solid #bea280 !important;	
+	background-color: #e38d27;
+	
+	background-image:url('button_bg.png'), url('button_bg.png'), -moz-radial-gradient(center bottom, circle, rgba(232,189,45,1) 0,rgba(232,189,45,0) 100px),-moz-linear-gradient(#f1982f, #d4821f);
+	background-image:url('button_bg.png'), url('button_bg.png'), -webkit-gradient(radial, 50% 100%, 0, 50% 100%, 100, from(rgba(232,189,45,1)), to(rgba(232,189,45,0))),-webkit-gradient(linear, 0% 0%, 0% 100%, from(#f1982f), to(#d4821f));
+}
+
+.orange.button:hover{
+	background-color:#ec9732;
+	
+	background-image:url('button_bg.png'), url('button_bg.png'), -moz-radial-gradient(center bottom, circle, rgba(241,192,52,1) 0,rgba(241,192,52,0) 100px),-moz-linear-gradient(#f9a746, #e18f2b);
+	background-image:url('button_bg.png'), url('button_bg.png'), -webkit-gradient(radial, 50% 100%, 0, 50% 100%, 100, from(rgba(241,192,52,1)), to(rgba(241,192,52,0))),-webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9a746), to(#e18f2b));
+}
+
+.gray.button{
+	color:#525252 !important;
+	border:1px solid #a5a5a5 !important;	
+	background-color: #a9adb1;
+	
+	background-image:url('button_bg.png'), url('button_bg.png'), -moz-radial-gradient(center bottom, circle, rgba(197,199,202,1) 0,rgba(197,199,202,0) 100px),-moz-linear-gradient(#c5c7ca, #92989c);
+	background-image:url('button_bg.png'), url('button_bg.png'), -webkit-gradient(radial, 50% 100%, 0, 50% 100%, 100, from(rgba(197,199,202,1)), to(rgba(197,199,202,0))),-webkit-gradient(linear, 0% 0%, 0% 100%, from(#c5c7ca), to(#92989c));
+}
+
+.gray.button:hover{
+	background-color:#b6bbc0;
+	
+	background-image:url('button_bg.png'), url('button_bg.png'), -moz-radial-gradient(center bottom, circle, rgba(202,205,208,1) 0,rgba(202,205,208,0) 100px),-moz-linear-gradient(#d1d3d6, #9fa5a9);
+	background-image:url('button_bg.png'), url('button_bg.png'), -webkit-gradient(radial, 50% 100%, 0, 50% 100%, 100, from(rgba(202,205,208,1)), to(rgba(202,205,208,0))),-webkit-gradient(linear, 0% 0%, 0% 100%, from(#d1d3d6), to(#9fa5a9));
+}

@@ -1,0 +1,73 @@
+* { 
+margin:0;
+padding:0; 
+font-family:Microsoft Yahei,"Î¢ÈíÑÅºÚ";
+}
+#container{
+	width:780px;
+}
+/*forum intergation */
+.forum{
+	padding:20px 0 20px 50px;
+}
+.forumContain{
+	width:710px;
+	height:180px;
+}
+/*for ucenter*/
+.forumContain2{
+	width:650px;
+	height:100px;
+	margin:30px 0;
+	padding:10px 30px;
+-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+border-radius: 12px;
+		border:1px dashed #cccccc;
+
+}
+/*for admin*/
+.forumContain3{
+	width:650px;
+	height:70px;
+	margin:30px 0;
+	padding:10px 30px;
+-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+border-radius: 12px;
+		border:1px dashed #cccccc;
+
+}
+.containleft{
+	float:left;
+    margin-right:25px;
+}
+.containright{
+	height:180px;
+}
+.containright ul{
+	list-style:none;	
+}
+.containright li{
+	padding:3px 0 3px 10px;;
+}
+.containfirstli{
+	font-weight:bold;
+}
+.forumWeibo{
+	padding-top:20px;
+}
+.forumWeibo a,a:visited{
+		color:#0077BB;
+	text-decoration:none;
+}
+.forumWeibo a:hover{
+	color:#EFAD37;
+}
+.forumIntro{
+	padding-top:10px;
+}
+.forumdivv{
+	margin-bottom:10px;
+}
+/*----------------------------- */

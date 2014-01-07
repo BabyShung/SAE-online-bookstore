@@ -1,0 +1,100 @@
+* { 
+        padding:0px;
+        margin:0px;
+font-family:Microsoft Yahei,"微软雅黑";
+font-size:14px;
+}
+.clear{
+	clear:both;
+}
+#container{
+    margin-top:5px;
+	width:780px;
+
+}
+#searchdiv{
+	width:650px;
+	margin:0 auto;
+}
+#resultsDiv{
+	width:720px;
+	margin:0 auto;
+}
+a,a:visited{
+	text-decoration:none;
+	color:#0077BB;
+	cursor:pointer;
+}
+a:hover{
+	color:#F6A828;
+	text-decoration:none;
+	cursor:pointer;
+}
+#booksuggest{
+	/* The search text box. */	
+	border:none;
+	color:#888888;
+	background:url("../../Gsearch/img/searchBox.png") no-repeat;
+	float:left;
+	font-size:15px;
+	height:36px;
+	line-height:36px;
+	margin-right:12px;
+	outline:medium none;
+	padding:0 0 0 35px;
+	width:420px;
+	font-family:Microsoft Yahei,"微软雅黑";
+
+}
+
+/* The submit button */
+#submitButton{
+	background:url('../../Gsearch/img/buttons.png') no-repeat;
+	width:83px;
+	height:36px;
+	text-indent:-9999px;
+	overflow:hidden;
+	text-transform:uppercase;
+	border:none;
+	cursor:pointer;
+}
+#submitButton:hover{
+	background-position:left bottom;
+}
+#inputbox{
+	float:left;
+	display:inline;
+}
+.webResult{
+	border:2px solid #cccccc;
+	-moz-border-radius:6px;
+	-khtml-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius:6px;
+	padding:5px;
+	margin:3px 0;
+}
+.webResult h2{
+	padding-left:20px;
+}
+.notFound{
+	color:#990000;
+	text-align:center;
+}
+#searchForm{
+	/* The search form. */
+	background-color:#F6A828;
+	padding:30px 50px 25px 50px;
+	-moz-border-radius:16px;
+	-webkit-border-radius:16px;
+	border-radius:16px;
+	margin-bottom:20px;
+}
+.freezed{
+	font-weight:bold;
+	color:#990000;
+}
+.unfreezed{
+	font-weight:bold;
+	color:#247833;
+}

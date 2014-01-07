@@ -1,0 +1,16 @@
+* { 
+margin:0;
+padding:0; 
+font-family:Microsoft Yahei,"Î¢ÈíÑÅºÚ";
+}
+#container{
+	width:800px;
+}
+#addrcontent{
+	padding:20px 10px 10px 10px;
+	margin:0 auto;
+	
+}
+#addrcontent ul{
+	list-style:none;
+}

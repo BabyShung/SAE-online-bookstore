@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/lab1/!svn/ver/2008/1/main
+END
+getbook.php
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/lab1/!svn/ver/647/1/main/getbook.php
+END
+getnews.php
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/lab1/!svn/ver/2115/1/main/getnews.php
+END
+user.php
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/lab1/!svn/ver/2443/1/main/user.php
+END
+return.php
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/lab1/!svn/ver/2005/1/main/return.php
+END
+submit.php
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/lab1/!svn/ver/2113/1/main/submit.php
+END
+Session.php
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/lab1/!svn/ver/1188/1/main/Session.php
+END
+getreplies.php
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/lab1/!svn/ver/2322/1/main/getreplies.php
+END
+checkout.php
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/lab1/!svn/ver/1700/1/main/checkout.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/lab1/!svn/ver/2781/1/main/index.php
+END
+login.php
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/lab1/!svn/ver/2613/1/main/login.php
+END
+ADSession.php
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/lab1/!svn/ver/2602/1/main/ADSession.php
+END
+ADsubmit.php
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/lab1/!svn/ver/2598/1/main/ADsubmit.php
+END
+admin.php
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/lab1/!svn/ver/2114/1/main/admin.php
+END

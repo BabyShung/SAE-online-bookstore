@@ -1,0 +1,23 @@
+* { 
+        padding:0px;
+        margin:0px;
+font-family:Microsoft Yahei,"微软雅黑";
+font-size:14px;
+}
+.clear{
+	clear:both;
+}
+#container{
+    margin-top:5px;
+	width:780px;
+}
+a,a:visited{
+	text-decoration:none;
+	color:#0077BB;
+	cursor:pointer;
+}
+a:hover{
+	color:#F6A828;
+	text-decoration:none;
+	cursor:pointer;
+}

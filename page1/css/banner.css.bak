@@ -1,0 +1,117 @@
+*{
+	/* A universal page reset */
+	margin:0;
+	padding:0;
+}
+
+body{
+	/* Setting default text color, background and a font stack */
+	font-size:13px;
+	color:#666;
+	background-color:#fff;
+	font-family:Microsoft Yahei,"微软雅黑";
+}
+
+.bannerHolder{
+	/* The main banner unordered list */
+
+	height:270px;
+	width:270px;
+	
+	float:left;
+	margin:20px 15px;
+	padding:10px;
+	background-color:#f7f7f7;
+	border:1px solid #DD8C31;
+
+	/* CSS3 rounded corners */
+
+	-moz-border-radius:12px;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+}
+
+.bannerHolder li{
+	/* Disabling the bullet of the li elements: */
+	list-style:none;
+	display:inline;
+}
+
+.banner{
+	/* The banner divs */
+	position:relative;
+	width:100px;
+	height:120px;
+	overflow:hidden;
+	float:left;
+	margin:7.5px 12.5px;
+
+}
+.bannerParent{
+	padding:2px 12px;
+}
+
+.banner img{
+	/* The banner divs */
+	display:block;
+	border:none;
+}
+
+.banner div{
+	/* The dark animated divs */
+	
+	position:absolute;
+	z-index:100;
+	background-color:#222;
+	width:60px;
+	height:60px;
+	cursor:pointer;
+	
+	/*	Setting a really big value for border-radius
+		will make the divs perfect circles */
+		
+	-moz-border-radius:100px;
+	-webkit-border-radius:100px;
+	border-radius:100px;
+}
+
+/*	Positioning the animated divs outside the
+	corners of the visible banner area: */
+
+.banner .cornerTL{ left:-63px;top:-63px; }
+.banner .cornerTR{ right:-63px;top:-63px; }
+.banner .cornerBL{ left:-63px;bottom:-63px; }
+.banner .cornerBR{ right:-63px;bottom:-63px; }
+
+.banner p{
+	/* The "Visit Company" text */
+	
+	display:none;	/* hidden by default */	
+	left:0;
+	top:57px;
+	width:100%;
+	z-index:200;
+	position:absolute;	
+	font-family:Microsoft Yahei,"微软雅黑";
+	color:white;
+	font-size:12px;
+	text-align:center;	
+	cursor:pointer;
+}
+
+/* The styles below are only necessary for the styling of the demonstration page: */
+
+#main{
+	position:relative;
+	margin:0 auto 30px;
+	width:660px;
+}
+a, a:visited {
+	color:#0196e3;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}

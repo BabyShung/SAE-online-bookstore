@@ -1,0 +1,146 @@
+*{
+	/* Simple page reset */
+	margin:0px;
+	padding:0px;
+}
+#loading{
+	position:absolute;
+	background-color:#FFF;
+	width:800px;
+	text-align:center;
+}
+#loadingdiv2{
+	text-align:center;
+	padding-bottom:10px;
+	width:648px;
+	margin:0 auto 10px auto;
+}
+body{
+	font-size:13px;
+	font-family:Microsoft Yahei,"微软雅黑";
+	background-color:#9EDFE8;
+	padding-top:5px;
+}
+.clear{
+	clear:both;
+}
+#usermain{
+	/* The main container */
+	margin:15px auto;
+	width:1000px;
+	position:relative;
+}
+#usermainCtn{
+	padding:10px 25px;
+	background-color:#FFF;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	box-shadow: 6px 8px 7px rgba(0, 0, 0, 0.74);
+    -moz-box-shadow: 6px 8px 7px rgba(0, 0, 0, 0.74);
+    -webkit-box-shadow: 6px 8px 7px rgba(0, 0, 0, 0.74);
+
+}
+#accord{
+	width:140px;
+	float:left;
+	
+}
+#frame{
+	width:800px;
+	float:right;
+}
+a, a:visited {
+	color:#fff;
+	text-decoration:none;
+	outline:none;
+}
+a:hover{
+	text-decoration:none;
+	background-color:#FFF;
+	color:#373128;
+
+}
+
+ul.container{
+	/* 子内容，小按钮 */
+	width:135px;
+	}
+
+li{
+	list-style:none;
+	text-align:left;
+}
+li.menu{
+	/* The main list elements */
+	padding:5px 0;
+	width:100%;
+}
+li.button a{
+	/* 大按钮———— */
+	display:block;
+	font-family:Microsoft Yahei,"微软雅黑";
+	font-weight:bold;
+	font-size:18px;
+	height:30px;
+	overflow:hidden;
+	padding:5px 15px 0 30px;
+	position:relative;
+	width:90px;
+}
+
+li.button a:hover{
+	/* Removing the inherited underline from the titles */
+	text-decoration:none;
+}
+
+li.button a span{
+	/* This span acts as the right part of the section's background */
+	height:44px;
+	position:absolute;
+	right:0;
+	top:0;
+	width:1px;
+	display:block;
+}
+
+/* Setting up different styles for each section color */
+
+li.button a.blue{background:url(../img/blue.png) repeat-x top left; color:#074384;}
+li.button a.blue span{ background:url(../img/blue.png) repeat-x top right;}
+
+li.button a.green{background:url(../img/green.png) repeat-x top left; color:#436800;}
+li.button a.green span{ background:url(../img/green.png) repeat-x top right;}
+
+li.button a.orange{background:url(../img/orange.png) repeat-x top left; color:#882e02;}
+li.button a.orange span{ background:url(../img/orange.png) repeat-x top right;}
+
+li.button a.red{background:url(../img/red.png) repeat-x top left; color:#641603;}
+li.button a.red span{ background:url(../img/red.png) repeat-x top right;}
+
+/* The hover effects */
+
+li.button a:hover{ background-position:bottom left;}
+li.button a:hover span{ background-position:bottom right;}
+
+.dropdown{
+	/* 子菜单 lists */
+	display:none;
+	width:100%;
+}
+
+.dropdown li{
+	/* Each element in the expandable list */
+	background-color:#373128;
+	border:1px solid #40392C;
+	color:#CCCCCC;
+	margin:2px 0;
+}
+.dropdown li a{
+	display:block;
+	padding-left:30px;
+	padding-top:4px;
+	padding-bottom:4px;
+}
+
+

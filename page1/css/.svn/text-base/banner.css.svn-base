@@ -1,0 +1,259 @@
+*{
+	/* A universal page reset */
+	margin:0;
+	padding:0;
+}
+
+body{
+	/* Setting default text color, background and a font stack */
+	font-size:13px;
+	color:#666;
+	background-color:#fff;
+	font-family:Microsoft Yahei,"微软雅黑";
+}
+
+
+/*---- Bright2 多行滚动------*/
+.Bright2{
+	border:1px solid #e4e4e4;
+	font-size:12px;
+	width:100%;
+	float:left;
+	display:inline;
+	margin-bottom:20px;
+}
+.Bright2head{
+	height:25px;
+	line-height:25px;
+	background:#F5F5F5;
+	color:#424444;
+	border-bottom:solid 1px #ddd;
+	padding:5px 0 5px 20px;
+	font-weight:bold;
+	font-size:14px;
+}
+.Bright2ul{
+	margin:10px;
+	padding:0;
+	line-height:20px;
+	height:61px;
+	overflow:hidden;
+}
+.Bright2ul li{
+	border-bottom:1px dashed #e4e4e4;
+	padding:0;
+	margin:0;
+	color:#424444;
+	height:60px;
+	overflow:hidden;
+}
+.Bright2ul li div{
+	line-height:30px;
+}
+.Bright2ul li a{
+	color:#3366CC;
+}
+.Bright2ul li .time{
+	line-height:24px;
+}
+.Bright2ul li .time a{
+	color:#F6A828;
+	overflow:hidden;
+	font-weight:bold;
+}
+.Bright2foot{
+	text-align:right;
+	padding:5px 10px 5px 0;
+}
+.Bright2foot a,.Bright2foot a:visited{
+	color:#424444;
+	font-weight:bold;
+}
+/*--------------------*/
+
+
+
+/*----单行滚动CSS------------ */
+.scrollupdate{
+	height:25px;/* 必要元素 */
+	line-height:25px;
+	overflow:hidden;/* 必要元素 */
+	margin-bottom:10px;
+	color:#424444;
+	font-size:14px;
+}
+.scrollupdate li{
+	height:25px;
+       	list-style-type:none;
+
+}
+.scrollupdate a,.scrollupdate a.visited{
+	color:#424444;
+	text-decoration:none;
+	}
+.scrollupdate a:hover{
+	color:#3366cc;
+	text-decoration:underline;
+	}
+/*---------------------------------------- */
+#Bright{
+	width:280px;
+	float:right;
+}
+/*----分类栏CSS------------ */
+#Bright1{
+	border:1px solid #e4e4e4;
+	width:100%;
+	height:140px;
+	color:#424444;
+	margin-bottom:20px;
+}
+#Bright1head{
+	font-size:14px;
+	font-weight:bold;
+	background-color:#F5F5F5;
+	border-bottom:solid 1px #ddd;
+	padding:5px 0 5px 20px;
+}
+#Bright1 ul{
+	width:100%;
+}
+#Bright1 li{
+	padding:10px 5px 5px 20px;
+	float:left;
+    list-style-type:none;
+}
+#Bright1 a,#Bright1 a.visited{
+	color:#424444;
+	text-decoration:none;
+	}
+#Bright1 a:hover{
+	color:#3366cc;
+	text-decoration:underline;
+	}
+/*---------------------------------------- */
+
+.bannerHolder{
+	/* The main banner unordered list */
+	height:395px;
+	width:250px;
+	float:left;
+    margin-right:20px;
+    margin-bottom:30px;
+	padding:10px;
+	background-color:#f7f7f7;
+	border:1px solid #eee;
+	-moz-border-radius:12px;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+}
+#containerB{
+	width:890px;
+	padding:20px 0 0 20px;
+	
+}
+#main{
+	width:600px;
+	height:940px;
+		float:left;
+}
+a, a:visited {
+	color:black;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+.bannerHolder li{
+	/* Disabling the bullet of the li elements: */
+	list-style:none;
+	display:inline;
+}
+.bannerparent{
+	float:left;
+           margin:7.5px 12.5px;
+}
+.bannername{
+	width:100px;
+	height:40px;
+        text-align:center;
+        padding-top:5px;
+        font-size:12px;
+}
+.banner{
+	/* The banner divs */
+	
+	width:100px;
+	height:140px;
+ 	position:relative;
+	overflow:hidden;
+	-moz-box-shadow:1px 1px 3px #555;
+	-webkit-box-shadow:1px 1px 3px #555;
+	box-shadow:1px 1px 3px #555;
+     
+
+
+}
+.shadow{
+	-moz-box-shadow:1px 1px 3px #555;
+	-webkit-box-shadow:1px 1px 3px #555;
+	box-shadow:1px 1px 3px #555;
+}
+
+.bannerParent{
+	padding:2px 12px;
+}
+
+.banner img{
+	/* The banner divs */
+	display:block;
+	border:none;
+}
+
+.banner div{
+	/* The dark animated divs */
+	
+	position:absolute;
+	z-index:100;
+	background-color:#222;
+	width:60px;
+	height:60px;
+	cursor:pointer;
+	
+	/*	Setting a really big value for border-radius
+		will make the divs perfect circles */
+		
+	-moz-border-radius:100px;
+	-webkit-border-radius:100px;
+	border-radius:100px;
+}
+
+/*	Positioning the animated divs outside the
+	corners of the visible banner area: */
+
+.banner .cornerTL{ left:-63px;top:-63px; }
+.banner .cornerTR{ right:-63px;top:-63px; }
+.banner .cornerBL{ left:-63px;bottom:-63px; }
+.banner .cornerBR{ right:-63px;bottom:-63px; }
+
+.banner p{
+	/* The "Visit Company" text */
+	
+	display:none;	/* hidden by default */	
+	left:0;
+	top:57px;
+	width:100%;
+	z-index:200;
+	position:absolute;	
+	font-family:Microsoft Yahei,"微软雅黑";
+	color:black;
+	font-size:12px;
+	text-align:center;	
+	cursor:pointer;
+}
+
+/* The styles below are only necessary for the styling of the demonstration page: */
+

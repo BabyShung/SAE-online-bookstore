@@ -1,0 +1,183 @@
+/*顶部菜单，属于qtip*/
+#headerFix2 {
+width: 100%;
+position:fixed;
+z-index:15050;
+top:0;left:0;
+_position:absolute;
+_top:expression(documentElement.scrollTop + 0 + "px");
+_left:expression(documentElement.scrollLeft + 0 + "px");
+	background-color:rgba(64,64,64,0.9); 
+
+}
+.shadow{
+	-moz-box-shadow:1px 1px 3px #555;
+	-webkit-box-shadow:1px 1px 3px #555;
+	box-shadow:1px 1px 3px #555;
+}
+#navigation2{
+	position: relative;
+	border-width: 0 0 1px;
+	margin:0 auto;
+	padding-left:100px;
+	width:700px;
+
+}	
+#navigation2,
+#navigation2 ul,
+#navigation2 a{
+	list-style: none outside none;
+	border: 0 none;
+	border-color: #AAA;
+	border-style: solid;
+}
+#navigation2,.ui-tooltip-nav .ui-tooltip-content{
+	font-size: 12px;
+	line-height: 15px;
+	background-color:rgba(64,64,64,0.9); 
+
+}
+#navigation2 ul,
+#navigation2 li{
+		float: left;
+}
+#navigation2 li a,#navigation2 li a:visited{
+		font-weight:bold;
+		text-decoration:none;
+}
+#navigation2 li .subtitle,.submenu li a{
+		display: block;
+		padding: 5px 20px 5px 20px;
+		border-left-width: 1px;
+		color: #FFF;
+		text-shadow:1px 1px 1px #000;
+		font-weight:bold;
+		text-decoration:none;
+}
+#navigateWOa{
+		display: block;
+		padding: 5px 20px 5px 20px;
+}
+
+
+#navigation2 li a:hover,
+{
+	cursor: pointer;
+    font-weight: bold;
+	text-shadow:none;
+}
+#navigation2 li .subtitle:hover,.submenu li a:hover{
+	background-color: #333;
+	cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+	text-shadow:none;
+}
+#navigation2 .submenu,#navigation2 .submenu2{
+		display: none;
+		border-width: 1px;
+}	
+#navigation2 .ui-tooltip-nav ul,
+#navigation2 .ui-tooltip-nav li{
+		float: none;
+}
+#navigation2 .ui-tooltip-nav li a{
+		border-width: 0;
+}
+/*----------------------*/
+
+/*小窗口*/
+#WinLogin{
+	display:none;
+	z-index:20055;
+	width:500px;
+	height:180px;
+	padding-top:10px;
+	font-family:Microsoft Yahei,"微软雅黑";
+}
+#WinLoginLeft{
+	width:300px;
+	height:150px;
+	float:left;
+}
+#WinLoginRight{
+	padding-top:10px;
+	width:180px;
+	height:150px;
+	float:right;
+	text-align:center;
+	border-left:1px solid #cccccc;
+}
+.WLDiv{
+	padding:8px 25px;	
+}
+.WLDiv input[type=text],.WLDiv input[type=password]{
+	font-family:Microsoft Yahei,"微软雅黑";
+	width:260px;
+	height:30px;
+	color:#999;
+}
+.WLDiv input[type=button]{
+	font-family:Microsoft Yahei,"微软雅黑";
+	height:30px;
+	width:60px;
+}
+#WinLoginRightBtn{
+	font-family:Microsoft Yahei,"微软雅黑";
+	width:80px;
+	height:30px;
+	font-size:16px;
+}
+#passwordtmp{
+	display:none;	
+}
+#errormessage{
+	padding-left:30px;
+	padding-bottom:4px;
+	color:#E96845;
+}
+#submit{
+	font-family:Microsoft Yahei,"微软雅黑";
+	width:80px;
+	height:40px;
+}
+
+/*---------------*/
+/*useful from qtip.css*/
+.qtip {
+    display: none;
+    font-size: 10.5px;
+    left: -28000px;
+    line-height: 12px;
+    max-width: 580px;
+    min-width: 50px;
+    position: absolute;
+    top: -28000px;
+}
+ .ui-tooltip-content {
+	background-color: #404040;
+	border-color: #666;
+	color: #555555;
+}
+.ui-tooltip-nav{
+	max-width: 540px;
+}
+.ui-tooltip-nav .ui-tooltip-content{
+		padding: 0;
+		border-width: 0;
+}
+/*----------------------*/
+
+/*返回顶部的CSS*/
+#retop{
+	position:fixed;
+	bottom:10%;
+	_position:absolute;
+	width:25px;
+	height:69px;
+	background:url(../images/topback.png) no-repeat;
+	text-indent:-9em;
+	overflow:hidden;
+	display:none;
+}	
+/*----------------------*/
